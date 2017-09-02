@@ -1,0 +1,86 @@
+
+
+/* Css for the Header Part  */
+
+  .navbar {
+	   margin-bottom: 0px !important;
+  }
+  
+  .container-fluid.carousel-slide {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  
+  .container-fluid.carousel-slide img {
+    height: 400px;
+}
+
+.navbar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a76060;
+}
+
+.navbar-nav li {
+    float: left;
+}
+
+.navbar-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    background-color: #111111;
+}
+.navbar-right{
+	margin-right: 0px !important;
+}
+ /* End of the Css for the Header Part  */
+
+
+/* Footer Part css script  */
+footer.footersection {
+    background: #195A72;
+    color: #ffffff;
+    padding: 4rem 0 40px;
+}
+
+footer.footersection a
+{
+color: #7ecce2;
+}
+
+
+.footer.footersection a:hover, footer.footersection a:focus {
+  color: white;	
+}
+
+.col-sm-12.footcopyright {
+    padding: 10px 0 0 20px;
+    color: #ffffff;
+    background: #104A5B;
+    height: 45px;
+}
+
+footer.footersection ul li {
+    list-style-type: none;
+}
+/* End of the Footer Part Css script */
+
+/* Css for the edit tabs list */
+
+div#block-comp-site-local-tasks ul li {
+    display: inline;
+    background: #901a1a;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
