@@ -1,0 +1,27 @@
+name: comp site
+description: "com site (Company site) build in drupal 8, to showcase the organization."
+type: theme
+core: 8.x
+screenshot: comp_site.png  
+libraries:
+  - comp_site/global-styling
+  - comp_site/global-scripting
+  
+regions:
+  header: Header
+  primary_menu: Primary Menu
+  content: Content
+  right_slidebar: Right Slidebar
+  slider_show: Slider Show
+  latest_news: Latest News
+  client_testimonials: Client Testimonials
+  gallery: Gallery
+  project_details: Project Details
+  footer_first: Footer Frist
+  footer_second: Footer Second
+  footer_last: Footer Last
+  footer_coptyright: Footer CopyRight
+  
+stylesheets-remove:
+  # - core/assets/vendor/normalize-css/normalize.css
+  # - '@classy/css/components/tabs.css'
